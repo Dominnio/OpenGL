@@ -25,10 +25,8 @@
   <ItemGroup>
     <None Include="gl_05.frag" />
     <None Include="gl_05.vert" />
-    <None Include="gl_05_B.frag" />
-    <None Include="gl_05_B.vert" />
-    <None Include="gl_05_C.vert" />
-    <None Include="gl_05_C.frag" />
+    <None Include="gl_05_light.frag" />
+    <None Include="gl_05_light.vert" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="iipw.png">
@@ -40,6 +38,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shprogram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="my_gl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
